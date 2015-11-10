@@ -104,7 +104,7 @@ public class ImportTask {
         try {
             DBConnect dbConnect = new DBConnect();
             ResultSet rs;
-            Connection con = dbConnect.openTestConnection();
+            Connection con = dbConnect.openERPConnection();
             String Select_UserAcc = "select emp_id,username,password from muser_account limit 1";
             String Update_UserAcc = "";
             PreparedStatement p;
