@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b48aa0-6468-46dd-8173-aa76f43c329b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cgc/DB/Check_MProduct_Price.java" afterPath="$PROJECT_DIR$/src/com/cgc/DB/Check_MProduct_Price.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cgc/DB/Check_MRawmat_Price.java" afterPath="$PROJECT_DIR$/src/com/cgc/DB/Check_MRawmat_Price.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cgc/DB/DBConnect.java" afterPath="$PROJECT_DIR$/src/com/cgc/DB/DBConnect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cgc/engine/IMP_Process_transaction.java" afterPath="$PROJECT_DIR$/src/com/cgc/engine/IMP_Process_transaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cgc/DB/IMP_Process_transactionDB.java" afterPath="$PROJECT_DIR$/src/com/cgc/DB/IMP_Process_transactionDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImportTask.java" afterPath="$PROJECT_DIR$/src/ImportTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cgc/Util/PeriodDate.java" afterPath="$PROJECT_DIR$/src/com/cgc/Util/PeriodDate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cgc/DB/Process_transactionDB.java" afterPath="$PROJECT_DIR$/src/com/cgc/DB/Process_transactionDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cgc/DB/Process_transaction_rawmat_DB.java" afterPath="$PROJECT_DIR$/src/com/cgc/DB/Process_transaction_rawmat_DB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cgc/DB/Transfer_MProduct_Price.java" afterPath="$PROJECT_DIR$/src/com/cgc/DB/Transfer_MProduct_Price.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cgc/DB/Transfer_MRawmat_Price.java" afterPath="$PROJECT_DIR$/src/com/cgc/DB/Transfer_MRawmat_Price.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cgc/Util/UtiDatabase.java" afterPath="$PROJECT_DIR$/src/com/cgc/Util/UtiDatabase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ImportTask.iws" />
@@ -43,7 +32,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="106" column="39" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
               </folding>
             </state>
@@ -57,6 +45,7 @@
               <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding>
                 <element signature="e#0#2937#0" expanded="false" />
+                <element signature="imports" expanded="false" />
                 <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
               </folding>
             </state>
@@ -67,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/cgc/DB/IMP_Process_transactionDB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
               <folding>
                 <marker date="1447208226726" expanded="true" signature="1276:1394" placeholder="(prod_code =..." />
                 <marker date="1447208226726" expanded="true" signature="1519:1577" placeholder="(prod_code =..." />
@@ -85,10 +74,10 @@
       <file leaf-file-name="DBConnect.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cgc/DB/DBConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7565789">
-              <caret line="187" column="63" selection-start-line="187" selection-start-column="63" selection-end-line="187" selection-end-column="63" />
+            <state vertical-scroll-proportion="4.0673075">
+              <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
               <folding>
-                <element signature="e#0#10098#0" expanded="true" />
+                <element signature="e#0#10106#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -99,10 +88,8 @@
         <entry file="file://$PROJECT_DIR$/src/com/cgc/DB/Process_transactionDB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="445" column="55" selection-start-line="445" selection-start-column="55" selection-end-line="445" selection-end-column="55" />
+              <caret line="442" column="0" selection-start-line="442" selection-start-column="0" selection-end-line="442" selection-end-column="0" />
               <folding>
-                <element signature="e#0#21795#0" expanded="false" />
-                <element signature="imports" expanded="false" />
                 <marker date="1447208161000" expanded="true" signature="2429:2842" placeholder="select runno..missingValue..." />
                 <marker date="1447208161000" expanded="true" signature="2919:3417" placeholder="select runno..missingValue..." />
                 <marker date="1447208161000" expanded="true" signature="3545:3949" placeholder="select runno..missingValue..." />
@@ -183,12 +170,22 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ImportTask" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -203,8 +200,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -581,15 +576,16 @@
       <workItem from="1447206215383" duration="203000" />
       <workItem from="1447206517364" duration="1784000" />
       <workItem from="1447226201801" duration="138000" />
-      <workItem from="1447226880173" duration="2064000" />
+      <workItem from="1447226880173" duration="2342000" />
+      <workItem from="1447291806521" duration="2291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26524000" />
+    <option name="totallyTimeSpent" value="29093000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -600,7 +596,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42972535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.63410854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24743778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -649,6 +645,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#2937#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
           </folding>
         </state>
@@ -659,7 +656,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -670,7 +666,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10098#0" expanded="true" />
+            <element signature="e#0#10106#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -682,6 +678,7 @@
           <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
           <folding>
             <element signature="e#0#2937#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
           </folding>
         </state>
@@ -692,7 +689,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -703,7 +699,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
           <folding>
-            <element signature="e#0#10098#0" expanded="true" />
+            <element signature="e#0#10106#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -715,6 +711,7 @@
           <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
           <folding>
             <element signature="e#0#2937#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
           </folding>
         </state>
@@ -725,7 +722,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -736,7 +732,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
           <folding>
-            <element signature="e#0#10098#0" expanded="true" />
+            <element signature="e#0#10106#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -748,6 +744,7 @@
           <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
           <folding>
             <element signature="e#0#2937#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
           </folding>
         </state>
@@ -758,7 +755,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -769,7 +765,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
           <folding>
-            <element signature="e#0#10098#0" expanded="true" />
+            <element signature="e#0#10106#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -781,6 +777,7 @@
           <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
           <folding>
             <element signature="e#0#2937#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
           </folding>
         </state>
@@ -791,7 +788,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -802,7 +798,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
           <folding>
-            <element signature="e#0#10098#0" expanded="true" />
+            <element signature="e#0#10106#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -814,6 +810,7 @@
           <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
           <folding>
             <element signature="e#0#2937#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
           </folding>
         </state>
@@ -824,7 +821,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -835,7 +831,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
           <folding>
-            <element signature="e#0#10098#0" expanded="true" />
+            <element signature="e#0#10106#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -847,6 +843,7 @@
           <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
           <folding>
             <element signature="e#0#2937#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
           </folding>
         </state>
@@ -857,7 +854,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="107" column="66" selection-start-line="107" selection-start-column="66" selection-end-line="107" selection-end-column="66" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -868,7 +864,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
           <folding>
-            <element signature="e#0#10098#0" expanded="true" />
+            <element signature="e#0#10106#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -880,6 +876,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#2937#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
           </folding>
         </state>
@@ -890,7 +887,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -902,6 +898,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#2937#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
           </folding>
         </state>
@@ -912,7 +909,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -924,6 +920,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#2937#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
           </folding>
         </state>
@@ -934,7 +931,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -946,6 +942,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#2937#0" expanded="false" />
+            <element signature="imports" expanded="false" />
             <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
           </folding>
         </state>
@@ -956,7 +953,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -967,7 +963,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -978,7 +973,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
           </folding>
         </state>
@@ -1085,21 +1079,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cgc_config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55921054">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ImportTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="106" column="39" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1447208126082" expanded="true" signature="3951:4009" placeholder="select emp_i..muser_account..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cgc/engine/IMP_Process_transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#2937#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -1107,10 +1104,8 @@
     <entry file="file://$PROJECT_DIR$/src/com/cgc/DB/Process_transactionDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="445" column="55" selection-start-line="445" selection-start-column="55" selection-end-line="445" selection-end-column="55" />
+          <caret line="442" column="0" selection-start-line="442" selection-start-column="0" selection-end-line="442" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21795#0" expanded="false" />
-            <element signature="imports" expanded="false" />
             <marker date="1447208161000" expanded="true" signature="2429:2842" placeholder="select runno..missingValue..." />
             <marker date="1447208161000" expanded="true" signature="2919:3417" placeholder="select runno..missingValue..." />
             <marker date="1447208161000" expanded="true" signature="3545:3949" placeholder="select runno..missingValue..." />
@@ -1123,21 +1118,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cgc/engine/IMP_Process_transaction.java">
+    <entry file="file://$PROJECT_DIR$/cgc_config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#2937#0" expanded="false" />
-            <marker date="1447208126074" expanded="true" signature="1981:2114" placeholder="insert into ..." />
-          </folding>
+        <state vertical-scroll-proportion="0.4132901">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cgc/DB/IMP_Process_transactionDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
           <folding>
             <marker date="1447208226726" expanded="true" signature="1276:1394" placeholder="(prod_code =..." />
             <marker date="1447208226726" expanded="true" signature="1519:1577" placeholder="(prod_code =..." />
@@ -1153,10 +1145,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cgc/DB/DBConnect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7565789">
-          <caret line="187" column="63" selection-start-line="187" selection-start-column="63" selection-end-line="187" selection-end-column="63" />
+        <state vertical-scroll-proportion="4.0673075">
+          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10098#0" expanded="true" />
+            <element signature="e#0#10106#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
