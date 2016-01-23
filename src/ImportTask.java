@@ -44,7 +44,7 @@ public class ImportTask {
             DateUtil DaTeU = new DateUtil();
             OS_Type os_type = new OS_Type();
 
-            String date_from = period.Start_Period("S");
+            String date_from = period.Start_Period("W");
 
             String date_to = DaTeU.Return_Date_Now_full();
 
@@ -55,21 +55,9 @@ public class ImportTask {
                 System.out.println("N date_to = " + date_to);
             }
 
-            //System.out.println("export_path = " + os_type.GetPath(os_type.GetOS_Type("Y")));
-            //System.out.println("Date Util Return = " + DaTeU.Return_Date_Now_full());
-
-
             System.out.println("Select DB start_period : " + date_from);
             System.out.println("Start Process Date : " + new Timestamp(new java.util.Date().getTime()));
             System.out.println("Process " + date_from + " - " + date_to);
-
-/*
-            for (int Count = 1; Count <= 2; Count++) {
-                process_for = (Count == 1 ? "WAREHOUSE" : "RAWMAT");
-                System.out.println("process_for " + process_for + " Loop " + Count);
-                objcom.main_check(date_from, date_to, username, process_for);
-            }
-*/
 
             date_from = DaTeU.ThaiDate_To_ThaiDate(date_from);
 
@@ -85,8 +73,17 @@ public class ImportTask {
             System.out.println("Mysql date_from " + date_from);
             System.out.println("Mysql date_to " + date_to);
 
-            for (int Counter = 1; Counter <= 2; Counter++) {
-                process_for = (Counter == 1 ? "FUEL" : "RAWMAT");
+            for (int Counter = 1; Counter <= 3; Counter++) {
+                if (Counter == 1) {
+                    process_for = "FUEL" ;
+                } else if  (Counter == 2) {
+                    process_for = "RAWMAT" ;
+                } else {
+                    process_for = "CARBON" ;
+                }
+
+                //process_for = (Counter == 1 ? "FUEL" : "RAWMAT");
+
                 System.out.println("process_for " + process_for + " Counter " + Counter);
                 objImp.main_check(date_from, date_to, username, process_for);
             }

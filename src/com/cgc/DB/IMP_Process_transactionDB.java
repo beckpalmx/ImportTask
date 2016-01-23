@@ -38,11 +38,16 @@ public class IMP_Process_transactionDB {
                 prod_cond = " (prod_code = '03' or prod_code = '04' or prod_code = '05' or prod_code = '14' or prod_code = '18' or prod_code = '19') ";
                 table_h = "d_ticketbuy_doc";
                 table_d = "d_ticketbuy";
-            } else {
+            } else if (process_id.equals("FUEL")) {
                 prod_cond = " (prod_code = '10' or prod_code = '11' or prod_code = '32') ";
                 table_h = "d_ticketbuy_fuel_doc";
                 table_d = "d_ticketbuy_fuel";
+            } else {
+                prod_cond = " (prod_code = '02') ";
+                table_h = "d_ticketbuy_carbon_doc";
+                table_d = "d_ticketbuy_carbon";
             }
+
 
             String SQL_Search, SQL_Search_Rec, SQL_Search_Cred, sql_cred;
 
