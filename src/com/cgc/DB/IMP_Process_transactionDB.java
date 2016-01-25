@@ -34,6 +34,26 @@ public class IMP_Process_transactionDB {
             System.out.println(date_from + " - " + date_to);
             System.out.println("A = " + process_id + " - " + process_id);
 
+            switch (process_id) {
+                case "RAWMAT":
+                    prod_cond = " (prod_code = '03' or prod_code = '04' or prod_code = '05' or prod_code = '14' or prod_code = '18' or prod_code = '19') ";
+                    table_h = "d_ticketbuy_doc";
+                    table_d = "d_ticketbuy";
+                    break;
+                case "FUEL":
+                    prod_cond = " (prod_code = '10' or prod_code = '11' or prod_code = '32') ";
+                    table_h = "d_ticketbuy_fuel_doc";
+                    table_d = "d_ticketbuy_fuel";
+                    break;
+                default:
+                    prod_cond = " (prod_code = '02') ";
+                    table_h = "d_ticketbuy_carbon_doc";
+                    table_d = "d_ticketbuy_carbon";
+                    break;
+            }
+
+/*
+
             if (process_id.equals("RAWMAT")) {
                 prod_cond = " (prod_code = '03' or prod_code = '04' or prod_code = '05' or prod_code = '14' or prod_code = '18' or prod_code = '19') ";
                 table_h = "d_ticketbuy_doc";
@@ -47,6 +67,7 @@ public class IMP_Process_transactionDB {
                 table_h = "d_ticketbuy_carbon_doc";
                 table_d = "d_ticketbuy_carbon";
             }
+*/
 
 
             String SQL_Search, SQL_Search_Rec, SQL_Search_Cred, sql_cred;

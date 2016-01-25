@@ -74,13 +74,19 @@ public class ImportTask {
             System.out.println("Mysql date_to " + date_to);
 
             for (int Counter = 1; Counter <= 3; Counter++) {
-                if (Counter == 1) {
-                    process_for = "FUEL" ;
-                } else if  (Counter == 2) {
-                    process_for = "RAWMAT" ;
-                } else {
-                    process_for = "CARBON" ;
+
+                switch (Counter) {
+                    case 1:
+                        process_for = "FUEL";
+                        break;
+                    case 2:
+                        process_for = "RAWMAT";
+                        break;
+                    default:
+                        process_for = "CARBON";
+                        break;
                 }
+
 
                 //process_for = (Counter == 1 ? "FUEL" : "RAWMAT");
 
