@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50b48aa0-6468-46dd-8173-aa76f43c329b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImportTask.java" afterPath="$PROJECT_DIR$/src/ImportTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cgc/DB/IMP_Process_transactionDB.java" afterPath="$PROJECT_DIR$/src/com/cgc/DB/IMP_Process_transactionDB.java" />
     </list>
     <ignored path="ImportTask.iws" />
@@ -54,21 +53,17 @@
       <file leaf-file-name="IMP_Process_transactionDB.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cgc/DB/IMP_Process_transactionDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24020442">
-              <caret line="159" column="53" selection-start-line="159" selection-start-column="53" selection-end-line="159" selection-end-column="53" />
+            <state vertical-scroll-proportion="-1.1331168">
+              <caret line="113" column="81" selection-start-line="113" selection-start-column="81" selection-end-line="113" selection-end-column="81" />
               <folding>
-                <marker date="1453707887476" expanded="true" signature="1417:1535" placeholder="(prod_code =..." />
-                <marker date="1453707887476" expanded="true" signature="1723:1781" placeholder="(prod_code =..." />
-                <marker date="1453707887476" expanded="true" signature="1975:1993" placeholder="(prod_code =..." />
-                <marker date="1453707887476" expanded="true" signature="2228:2346" placeholder="(prod_code =..." />
-                <marker date="1453707887476" expanded="true" signature="2518:2576" placeholder="(prod_code =..." />
-                <marker date="1453707887476" expanded="true" signature="2727:2745" placeholder="(prod_code =..." />
-                <marker date="1453707887476" expanded="true" signature="2985:3888" placeholder="select ticke..ticketbuy..." />
-                <marker date="1453707887476" expanded="true" signature="4826:4920" placeholder="insert into ..." />
-                <marker date="1453707887476" expanded="true" signature="5960:6358" placeholder="insert into ..." />
-                <marker date="1453707887476" expanded="true" signature="9522:9587" placeholder="insert into ..." />
-                <marker date="1453707887476" expanded="true" signature="10128:10721" placeholder="update missi..." />
-                <marker date="1453707887476" expanded="true" signature="13459:13524" placeholder="insert into ..." />
+                <marker date="1453879665543" expanded="true" signature="1294:1412" placeholder="(prod_code =..." />
+                <marker date="1453879665543" expanded="true" signature="1600:1658" placeholder="(prod_code =..." />
+                <marker date="1453879665543" expanded="true" signature="1852:1870" placeholder="(prod_code =..." />
+                <marker date="1453879665543" expanded="true" signature="2141:3044" placeholder="select ticke..ticketbuy..." />
+                <marker date="1453879665543" expanded="true" signature="3982:4076" placeholder="insert into ..." />
+                <marker date="1453879665543" expanded="true" signature="5116:5514" placeholder="insert into ..." />
+                <marker date="1453879665543" expanded="true" signature="8248:8687" placeholder="update missi..." />
+                <marker date="1453879665543" expanded="true" signature="11180:11245" placeholder="insert into missingValue..." />
               </folding>
             </state>
           </provider>
@@ -142,9 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,6 +161,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -659,22 +654,26 @@
       <workItem from="1453540099144" duration="1636000" />
       <workItem from="1453706084931" duration="2890000" />
       <workItem from="1453711841271" duration="87000" />
+      <workItem from="1453715891245" duration="146000" />
+      <workItem from="1453878626349" duration="2346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42775000" />
+    <option name="totallyTimeSpent" value="45267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42972535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2868217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19399707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -683,16 +682,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2868217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6170543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1151,21 +1148,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cgc/DB/IMP_Process_transactionDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24020442">
-          <caret line="159" column="53" selection-start-line="159" selection-start-column="53" selection-end-line="159" selection-end-column="53" />
+        <state vertical-scroll-proportion="-1.1331168">
+          <caret line="113" column="81" selection-start-line="113" selection-start-column="81" selection-end-line="113" selection-end-column="81" />
           <folding>
-            <marker date="1453707887476" expanded="true" signature="1417:1535" placeholder="(prod_code =..." />
-            <marker date="1453707887476" expanded="true" signature="1723:1781" placeholder="(prod_code =..." />
-            <marker date="1453707887476" expanded="true" signature="1975:1993" placeholder="(prod_code =..." />
-            <marker date="1453707887476" expanded="true" signature="2228:2346" placeholder="(prod_code =..." />
-            <marker date="1453707887476" expanded="true" signature="2518:2576" placeholder="(prod_code =..." />
-            <marker date="1453707887476" expanded="true" signature="2727:2745" placeholder="(prod_code =..." />
-            <marker date="1453707887476" expanded="true" signature="2985:3888" placeholder="select ticke..ticketbuy..." />
-            <marker date="1453707887476" expanded="true" signature="4826:4920" placeholder="insert into ..." />
-            <marker date="1453707887476" expanded="true" signature="5960:6358" placeholder="insert into ..." />
-            <marker date="1453707887476" expanded="true" signature="9522:9587" placeholder="insert into ..." />
-            <marker date="1453707887476" expanded="true" signature="10128:10721" placeholder="update missi..." />
-            <marker date="1453707887476" expanded="true" signature="13459:13524" placeholder="insert into ..." />
+            <marker date="1453879665543" expanded="true" signature="1294:1412" placeholder="(prod_code =..." />
+            <marker date="1453879665543" expanded="true" signature="1600:1658" placeholder="(prod_code =..." />
+            <marker date="1453879665543" expanded="true" signature="1852:1870" placeholder="(prod_code =..." />
+            <marker date="1453879665543" expanded="true" signature="2141:3044" placeholder="select ticke..ticketbuy..." />
+            <marker date="1453879665543" expanded="true" signature="3982:4076" placeholder="insert into ..." />
+            <marker date="1453879665543" expanded="true" signature="5116:5514" placeholder="insert into ..." />
+            <marker date="1453879665543" expanded="true" signature="8248:8687" placeholder="update missi..." />
+            <marker date="1453879665543" expanded="true" signature="11180:11245" placeholder="insert into missingValue..." />
           </folding>
         </state>
       </provider>
